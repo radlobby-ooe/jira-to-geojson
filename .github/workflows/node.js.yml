@@ -14,6 +14,10 @@ on:
 jobs:
   build:
     environment: github-action
+    env:
+      JIRA_SITE: ${{ secrets.JIRA_SITE }}
+      JIRA_USER: ${{ secrets.JIRA_USER }}
+      JIRA_TOKEN: ${{ secrets.JIRA_TOKEN }}
 
     runs-on: ubuntu-latest
     strategy:
