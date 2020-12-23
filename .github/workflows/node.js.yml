@@ -18,6 +18,7 @@ jobs:
       JIRA_SITE: ${{ secrets.JIRA_SITE }}
       JIRA_USER: ${{ secrets.JIRA_USER }}
       JIRA_TOKEN: ${{ secrets.JIRA_TOKEN }}
+      TEST_KEY: 123
 
     runs-on: ubuntu-latest
     strategy:
