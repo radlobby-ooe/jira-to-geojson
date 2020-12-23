@@ -13,9 +13,9 @@ on:
 
 jobs:
   build:
+    environment: github-action
 
     runs-on: ubuntu-latest
-    environment: Github Action
     strategy:
       matrix:
         node-version: [14.x]
